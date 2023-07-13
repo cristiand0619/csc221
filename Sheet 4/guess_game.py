@@ -11,3 +11,5 @@ while answer != number:
         print("That's too low.\n")
     elif answer > number:
         print("That's too high.\n")
+
+print("That was my number. Well done!")
