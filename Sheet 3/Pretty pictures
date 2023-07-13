@@ -1,7 +1,7 @@
 from gasp import *
 begin_graphics()
 
-Circle((300, 200), 100)
+draw_face:Circle((300, 200), 100)
 Circle((265,225), 27)
 Circle((340,225), 27)
 Circle((340,225), 14, filled=True)
@@ -39,6 +39,6 @@ Arc((213, 208), 30, 250, 95)
 Arc((207, 208), 15, 250, 100)
 Arc((390, 210), 28,85, -74)
 Arc((398, 210), 12,85, -74)
-
 update_when('key_pressed')
 end_graphics()
+print(draw_face(300, 200))
