@@ -5,7 +5,7 @@ print("OK, I've thought of a number between 1 and 6.\n")
 prompt = "Make a guess: "
 answer = -1
 
-while answer != number
+while answer != number:
     answer = int(input(prompt))
     if answer < number:
         print("That's too low.\n")
